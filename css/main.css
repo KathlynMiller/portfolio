@@ -1,0 +1,23 @@
+body{
+	background-color: red;
+}
+/*body {
+	display:block;
+	margin:8px;
+}*/
+div {
+	text-align: center;
+	color: purple;
+	border: 5px solid black;
+	padding:30px;
+
+}
+.container {
+	border-color: black;
+
+}
+
+.row {
+
+	border-color: yellow;
+}
