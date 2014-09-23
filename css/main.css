@@ -1,0 +1,60 @@
+body{
+	background-image: url(../images/images.jpg);
+}
+div {
+	text-align: center;
+	color: magenta;
+	font-family: 
+	border: 5px solid pink;
+	padding:30px;
+}
+
+.container {
+	border-color: black;
+
+}
+
+.row {
+	border-color: red;
+}
+#left-column{
+	width:700px;
+	float:left;
+}
+#right-column{
+	width:260px;
+	float:left;
+}
+
+.list-group-item {
+
+	border: 0;
+	margin-top: 30px;
+	margin bottom: 30px;
+}
+#carousel-example-generic{
+    width: 500px; 
+}
+@media screeen and (max-width:959px) {
+	#container{
+		width:100%;
+	}
+	#left-column          {
+        width:70;
+	}
+	#right-column         {
+        width:30;
+	}
+	img{
+		width:100%;
+	}
+}
+
+@media screeen and (max-width:640px) {
+    #left-column{
+    	width:100%;
+    }
+    #right-column{
+    	width:100%;
+    }
+}
