@@ -4,6 +4,7 @@ body{
 div {
 	text-align: center;
 	color: magenta;
+	
 	/*border: 5px solid pink;*/
 	padding:30px;
 	width:700px;
@@ -15,7 +16,11 @@ div {
 }
 
 .row {
-	/*border-color: red;*/
+	/*border*/
+
+{
+    }
+
 }
 #page1{
 	width:700px;
@@ -44,7 +49,6 @@ div {
 	}
 	img{
 		width:100%;
-		
 	}
 }
 
@@ -72,13 +76,13 @@ p {
 	} 
 }
 @media (max-width: 320px) {
- .center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    background-color: #b0e0e6;
+	body {
+		background-color: red;
+		text-align: center;
+	}
 }
-
+.paragraph {
+	display: inline-flex;
 }
 
 
